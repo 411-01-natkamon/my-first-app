@@ -38,14 +38,14 @@ def show_result_dialog(ans1, ans2):
     u_ans4 = ans4.strip().lower()
 
   # ตรวจข้อ 1
-    if u_ans1 == "apple":
+    if u_ans1 == "mango":
         st.success("✅ ข้อ 1: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 1: ยังไม่ถูกต้อง (คุณตอบ '{u_ans1}')")
 
    # ตรวจข้อ 2
-    if u_ans2 == "fish":
+    if u_ans2 == "Wotermalon":
         st.success("✅ ข้อ 2: ถูกต้อง")
         score += 1
         
@@ -57,7 +57,7 @@ def show_result_dialog(ans1, ans2):
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
 
      # ตรวจข้อ 4
-    if u_ans4 == "phone":
+    if u_ans4 == "Banana":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:

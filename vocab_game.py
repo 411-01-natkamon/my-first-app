@@ -92,11 +92,11 @@ st.divider()
 
 # 3. ช่องรับคำตอบ (ใช้ value ผูกกับตัวแปรตรงๆ เพื่อสั่งเคลียร์ได้)
 ans1 = st.text_input(
-    "ข้อ 1: An `m_n_o` a day keeps the doctor away. 🥭",
+    "ข้อ 1: It is a yellow fruit `m_n_o`. 🥭",
     value=st.session_state.ans1_val,
 )
 ans2 = st.text_input(
-    "ข้อ 2: Cats love to eat `W_t_r_m_l_n`. 🍉",
+    "ข้อ 2: Red meat and very juicy `W_t_r_m_l_n`. 🍉",
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
@@ -104,7 +104,7 @@ ans3 = st.text_input(
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: can take photos with it `B_n__a`. 🍌",
+    "ข้อ 4: Monkey like to eat`B_n__a`. 🍌",
     value=st.session_state.ans4_val,
 )
 
